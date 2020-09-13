@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.laiydmall</groupId>
+    <artifactId>laiyd-mall</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>laiyd-mall</name>
+    <description>来一点商城</description>
+
+    <modules>
+        <module>laiyd-mall-coupon</module>
+        <module>laiyd-mall-order</module>
+        <module>laiyd-mall-product</module>
+        <module>laiyd-mall-storage</module>
+        <module>laiyd-mall-user</module>
+    </modules>
+</project>
